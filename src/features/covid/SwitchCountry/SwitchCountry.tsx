@@ -43,8 +43,8 @@ const SwitchCountry: React.FC = () => {
       >
         {countries.map((country, i) => (
           <option key={i} value={country}>
-            {country}
-          </option>
+          {country}
+        </option>
         ))}
       </NativeSelect>
     </FormControl>

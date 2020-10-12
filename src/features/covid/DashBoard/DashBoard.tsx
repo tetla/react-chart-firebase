@@ -14,10 +14,10 @@ import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 
 import { selectDaily, fetchAsyncGetDaily } from "../covidSlice";
-import SwitchCountry from "../SwitchCountry/SwitchCountry";
 import Cards from "../Cards/Cards";
 import Chart from "../Chart/Chart";
 import PieChart from "../PieChart/PieChart";
+import SwitchCountry from "../SwitchCountry/SwitchCountry";
 
 const useStyles = makeStyles((theme) => ({
   title: {
